@@ -395,8 +395,14 @@ main section img {
   margin-right: auto;
   box-shadow: 5px 5px 10px #6f7364;
 }
-
-
+#footer2 {
+  background-color: #252422;
+  padding: 25px 50px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 
 @media screen and (max-width: 900px) {
@@ -438,5 +444,95 @@ main section img {
   }
   footer {
       margin-top: 25px;
+  }
+/*rivers page*/
+
+  #hero2-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 50px;
+  }
+  
+  #hero-river {
+    width: 200%
+  }
+  
+  #hero2-msg h1 {
+    text-align: center;
+    color:white;
+  }
+
+  .river1 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  
+  .river2 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river3 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river4 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river5 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river6 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river7 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river8 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
+  }
+  .river9 {
+    max-height: 200px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 10px #6f7364;
   }
 }
