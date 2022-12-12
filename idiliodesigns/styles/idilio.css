@@ -190,7 +190,7 @@ nav a:hover {
 /* homepage */
 .hero-box{
   width: 100%;
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr;
   height: 200px;
   align-items: center;
@@ -236,7 +236,7 @@ nav a:hover {
 
 .home-main {
   width: 100%;
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 
@@ -256,7 +256,7 @@ nav a:hover {
 
 .button-box {
   background-color: #D5ACA9;
-  grid-column: 2;
+  grid-column: 2; 
   font-size: 18px;
   padding: 15px 20px;
   margin-top: 5rem;
@@ -333,7 +333,7 @@ nav a:hover {
 
 .herobox{
   width: 100%;
-  display: grid;
+  display: grid; 
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding-bottom: 5px;
@@ -406,7 +406,7 @@ nav a:hover {
 }
 
 .pixflex{
-  display: flex;
+  display: flex; 
 }
 
 
@@ -502,48 +502,21 @@ footer .social img {
 }
 
 
-@media screen and (max-width: 900px) {
-  .herobox, .hero-box {
-    display: block;
-    height: auto;
+@media screen and (min-width: 900px) {
+  .nav {
+    display: flex;
   }
-  #content {
-    flex-direction: column;
-
+  .hero-box{
+    display: grid; 
   }
-  nav, footer {
-    flex-direction: column;
+  .title h1{
+  display: flex;
   }
-  nav a {
-    display: block;
-    padding: 15px;
+  .home-main {
+    display: grid; 
   }
-  .hero-box {
-    margin-top: 0;
+  .box10 {
+    display: grid;
   }
-  .msg {
-    margin-top: 0;
-  }
-  .title {
-    font-size: 25px;
-    color: #424B54;
-  }
-  .box {
-    margin: 50px auto;
-    width: 60%;
-  }
-  .button-box {
-    display: block;
-    width: 60%;
-    padding-left: 4rem;
-
-  }
-  .viewall{
-    padding-left: 4rem;
-  }
-
-
-
-
-
-} 
+}
+  
