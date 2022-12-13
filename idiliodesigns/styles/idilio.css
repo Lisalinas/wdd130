@@ -18,6 +18,11 @@ img {
   --nav-hover-link-color: white;
   --nav-hover-background-color: #C5BAAF;
 }
+header {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  }
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -27,12 +32,9 @@ img {
   padding: 0;
   height: 100%;
 }
-.idilogo {
-  display: inline-block;
+.logo {
+  grid-column: 4/7;
   width: 220px;
-  display: block;
-  margin: auto;
-  padding-bottom: 1em;
 }
 
 body {
@@ -66,21 +68,24 @@ input[type=text]:focus, input[type=password]:focus {
 button {
   background-color: #EBCFB2;
   color: #424B54;
-  padding: 13px;
-  float: right;
-  margin: none;
+  padding: 1em 3em;
   border: none;
   border-radius: 15px;
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
-  width: 10%;
   opacity: 0.9;
+  grid-column: 11/13;
+  justify-self: center;
+  align-self: center;
 }
 
 button:hover {
   opacity:4;
 }
+.bold {
+  font-weight: 700;
+  }
 .cancelbtn, .signup {
   float: left;
   width: 50%;
@@ -156,7 +161,8 @@ hr {
 }
 
 nav {
-  display: flex;
+
+  grid-column: 1/13;
   justify-content: space-around;
   width: 100%;
   text-align: center;
