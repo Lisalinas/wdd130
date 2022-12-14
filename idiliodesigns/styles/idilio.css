@@ -32,9 +32,9 @@ header {
   padding: 0;
   height: 100%;
 }
-.logo {
-  grid-column: 4/7;
-  width: 220px;
+.logo  {
+  grid-column: 6/10;
+  width: 200px;
 }
 
 body {
@@ -75,7 +75,7 @@ button {
   font-weight: 600;
   cursor: pointer;
   opacity: 0.9;
-  grid-column: 11/13;
+  grid-column: 10/13;
   justify-self: center;
   align-self: center;
 }
